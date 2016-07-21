@@ -1,0 +1,17 @@
+{
+  "name": "google-cloud-prediction-cli",
+  "version": "1.0.0",
+  "description": "A small CLI tool that will allow you to easily insert and check the status of training models with the Google Cloud Prediction API.",
+  "main": "prediction.js",
+  "bin": {
+    "prediction": "./prediction.js"
+  },
+  "author": "Chris Ramsey <c.w.ramsey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^3.0.0",
+    "command-line-usage": "^3.0.3",
+    "googleapis": "^11.0.0",
+    "prettyjson": "^1.1.3"
+  }
+}
