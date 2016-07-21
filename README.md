@@ -2,6 +2,10 @@
 
 This is a small CLI tool that will allow you to easily insert and check the status of training models with the Google Cloud Prediction API.
 
+## Requirements
+
+You must have Node v5+ (this was written with ES6 in mind, so it will not work on older versions of node.)
+
 ## Installation
 
 `$ npm install -g google-cloud-prediction-cli`
